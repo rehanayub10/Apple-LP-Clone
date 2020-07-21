@@ -1,5 +1,6 @@
 body {
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin: 0;
 }
 
 ul {
@@ -48,4 +49,51 @@ ul {
     margin-left: 50px;
     padding-top: 3px;
     cursor: pointer;
+}
+
+.info {
+    margin-top: 75px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.info span {
+    color: blue;
+}
+
+.info span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.iphone-se {
+    height: 520px;
+    background: url('https://www.apple.com/v/iphone-se/c/images/meta/og__eop0rb3mevma_overview.png?202006111333') no-repeat;
+    background-position: left top;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.info-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.info-box h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.info-box p {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.info-box span {
+    color: gray;
+    font-size: 1rem;
 }
