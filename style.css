@@ -39,6 +39,10 @@ ul {
     cursor: pointer;
 }
 
+.nav-links li:hover {
+    color: #fff;
+}
+
 .right-icons {
     display: flex;
     justify-content: space-between;
@@ -49,6 +53,10 @@ ul {
     margin-left: 50px;
     padding-top: 3px;
     cursor: pointer;
+}
+
+.right-icons li:hover {
+    fill: #fff;
 }
 
 .info {
@@ -77,23 +85,76 @@ ul {
     justify-content: flex-start;
 }
 
-.info-box {
+.info-box-a {
     text-align: center;
     margin-top: 20px;
 }
 
-.info-box h1 {
+.info-box-a h1 {
     font-size: 2.5rem;
     margin-bottom: 5px;
 }
 
-.info-box p {
+.info-box-a p {
     font-size: 1.5rem;
     margin-top: 0;
     margin-bottom: 10px;
 }
 
-.info-box span {
+.info-box-a span {
     color: gray;
     font-size: 1rem;
+}
+
+.iphone-11 {
+    height: 550px;
+    background: url('assets/img/silhouette-of-grass-under-white-sky-925743.jpg') no-repeat;
+    background-position: left top;
+    background-size: cover;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.info-box-b {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.info-box-b h1 {
+    font-size: 2.8rem;
+    margin-bottom: 5px;
+}
+
+.info-box-b p {
+    font-size: 1.7rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.info-box-b span {
+    color: gray;
+    font-size: 1.2rem;
+}
+
+.btn-container {
+    margin-top: 20px;
+    display: flex;
+    font-size: 1.2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-container a  {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.btn-container a:last-child {
+    margin-left: 20px;
+}
+
+.btn-container a:hover {
+    text-decoration: underline;
 }
