@@ -1,0 +1,51 @@
+body {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin: auto;
+}
+
+.top-bar {
+    background-color: black;
+    color: lightgray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-left: 200px;
+    flex-basis: 1;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    align-items: stretch;
+}
+
+.nav-links li {
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.right-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.right-icons li {
+    margin-left: 50px;
+    padding-top: 3px;
+    cursor: pointer;
+}
